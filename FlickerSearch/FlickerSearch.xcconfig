@@ -1,0 +1,10 @@
+//
+//  FlickerSearch.xcconfig
+//  FlickerSearch
+//
+//  Created by Fabricio Rodriguez on 9/5/18.
+//  Copyright © 2018 Fabricio Rodriguez. All rights reserved.
+//
+
+APP_VERSION = 1.0.0
+PROJECT_VERSION = 0100000

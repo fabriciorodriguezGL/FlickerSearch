@@ -1,0 +1,9 @@
+disabled_rules:
+  - line_length
+  - identifier_name
+  - trailing_whitespace
+  
+excluded:
+  - Pods
+
+reporter: "xcode"
