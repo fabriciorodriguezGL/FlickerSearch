@@ -1,0 +1,5 @@
+1.1.0 (0101000) 9/5/2017:
+- Search Photos Feature. 
+
+1.0.0 (0100000) 9/5/2017:
+- Initial project configuration.
