@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        startSearchViewController()
         return true
     }
-
+    
+    private func startSearchViewController() {
+        let viewModel = SearchPhotosViewModel()
+        let scanViewController = SearchPhotosViewController.instantiate(with: viewModel)
+        let navigationController = UINavigationController.init(rootViewController: scanViewController)
+        window = UIWindow()
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+    }
 }
