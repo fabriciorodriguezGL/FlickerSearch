@@ -26,6 +26,7 @@
 		7F670C24214026BB00F4FE18 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F670C23214026BB00F4FE18 /* Localizable.strings */; };
 		7F670C2821402A3500F4FE18 /* PhotoSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F670C2721402A3500F4FE18 /* PhotoSearchViewModelTests.swift */; };
 		7F670C2B21402B3C00F4FE18 /* PhotosServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F670C2A21402B3C00F4FE18 /* PhotosServiceMock.swift */; };
+		7F670C302140347B00F4FE18 /* PhotosSearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F670C2F2140347B00F4FE18 /* PhotosSearchViewControllerTests.swift */; };
 		EABA7833B36284B7294D6FC0 /* Pods_FlickerSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3893C57B1736BC8480121BE6 /* Pods_FlickerSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		7F670C23214026BB00F4FE18 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		7F670C2721402A3500F4FE18 /* PhotoSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewModelTests.swift; sourceTree = "<group>"; };
 		7F670C2A21402B3C00F4FE18 /* PhotosServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosServiceMock.swift; sourceTree = "<group>"; };
+		7F670C2F2140347B00F4FE18 /* PhotosSearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosSearchViewControllerTests.swift; sourceTree = "<group>"; };
 		CA217B547B08C7BB89733AF9 /* Pods_FlickerSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB51B63FC3B7D319F9B4CE32 /* Pods-FlickerSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerSearch/Pods-FlickerSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				7F670C2721402A3500F4FE18 /* PhotoSearchViewModelTests.swift */,
+				7F670C2F2140347B00F4FE18 /* PhotosSearchViewControllerTests.swift */,
 			);
 			path = PhotoSearch;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F670C302140347B00F4FE18 /* PhotosSearchViewControllerTests.swift in Sources */,
 				7F670C2B21402B3C00F4FE18 /* PhotosServiceMock.swift in Sources */,
 				7F670C2821402A3500F4FE18 /* PhotoSearchViewModelTests.swift in Sources */,
 			);
