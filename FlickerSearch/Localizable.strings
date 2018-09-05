@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  FlickerSearch
+
+  Created by Fabricio Rodriguez on 9/5/18.
+  Copyright © 2018 Fabricio Rodriguez. All rights reserved.
+*/
+SEARCH_VC_TITLE = "Search Photos";
+SEARCH_PLACEHOLDER = "Type to Search";
