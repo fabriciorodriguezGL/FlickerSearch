@@ -75,7 +75,7 @@ class SearchPhotosViewModel: SearchPhotosViewModelType, SearchPhotosViewModelOut
         }
     }
     
-    func searchPhotos(for term: String, startingFrom page: Int, isNewSearch: Bool = true) {
+    private func searchPhotos(for term: String, startingFrom page: Int, isNewSearch: Bool = true) {
         self.isLoading.accept(true)
         photosService.searchPhotos(term: term, page: page) {[weak self] result in
             switch result {

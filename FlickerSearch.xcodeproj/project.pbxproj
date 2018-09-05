@@ -11,7 +11,6 @@
 		7F0CFF8A213FECFE00CA5572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CFF89213FECFE00CA5572 /* AppDelegate.swift */; };
 		7F0CFF94213FED0000CA5572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0CFF93213FED0000CA5572 /* Assets.xcassets */; };
 		7F0CFF97213FED0000CA5572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0CFF95213FED0000CA5572 /* LaunchScreen.storyboard */; };
-		7F0CFFA2213FED0000CA5572 /* FlickerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CFFA1213FED0000CA5572 /* FlickerSearchTests.swift */; };
 		7F0CFFB0213FF6F500CA5572 /* SearchPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CFFAF213FF6F500CA5572 /* SearchPhotosViewModel.swift */; };
 		7F0CFFB2213FF70700CA5572 /* SearchPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CFFB1213FF70700CA5572 /* SearchPhotosViewController.swift */; };
 		7F0CFFB4213FF71600CA5572 /* SearchPhotos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0CFFB3213FF71600CA5572 /* SearchPhotos.storyboard */; };
@@ -25,6 +24,8 @@
 		7F670C1F214000A600F4FE18 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F670C1D214000A600F4FE18 /* PhotoCollectionViewCell.xib */; };
 		7F670C21214009A900F4FE18 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F670C20214009A900F4FE18 /* SearchResponse.swift */; };
 		7F670C24214026BB00F4FE18 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F670C23214026BB00F4FE18 /* Localizable.strings */; };
+		7F670C2821402A3500F4FE18 /* PhotoSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F670C2721402A3500F4FE18 /* PhotoSearchViewModelTests.swift */; };
+		7F670C2B21402B3C00F4FE18 /* PhotosServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F670C2A21402B3C00F4FE18 /* PhotosServiceMock.swift */; };
 		EABA7833B36284B7294D6FC0 /* Pods_FlickerSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3893C57B1736BC8480121BE6 /* Pods_FlickerSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +50,6 @@
 		7F0CFF96213FED0000CA5572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F0CFF98213FED0000CA5572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F0CFF9D213FED0000CA5572 /* FlickerSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F0CFFA1213FED0000CA5572 /* FlickerSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchTests.swift; sourceTree = "<group>"; };
 		7F0CFFA3213FED0000CA5572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F0CFFAC213FEF4F00CA5572 /* FlickerSearch.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FlickerSearch.xcconfig; sourceTree = "<group>"; };
 		7F0CFFAF213FF6F500CA5572 /* SearchPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosViewModel.swift; sourceTree = "<group>"; };
@@ -65,6 +65,8 @@
 		7F670C1D214000A600F4FE18 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		7F670C20214009A900F4FE18 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		7F670C23214026BB00F4FE18 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		7F670C2721402A3500F4FE18 /* PhotoSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewModelTests.swift; sourceTree = "<group>"; };
+		7F670C2A21402B3C00F4FE18 /* PhotosServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosServiceMock.swift; sourceTree = "<group>"; };
 		CA217B547B08C7BB89733AF9 /* Pods_FlickerSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB51B63FC3B7D319F9B4CE32 /* Pods-FlickerSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerSearch/Pods-FlickerSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +131,8 @@
 		7F0CFFA0213FED0000CA5572 /* FlickerSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				7F0CFFA1213FED0000CA5572 /* FlickerSearchTests.swift */,
+				7F670C2921402B2B00F4FE18 /* Mock */,
+				7F670C2521402A0700F4FE18 /* Feature */,
 				7F0CFFA3213FED0000CA5572 /* Info.plist */,
 			);
 			path = FlickerSearchTests;
@@ -189,6 +192,30 @@
 				7F0CFFB3213FF71600CA5572 /* SearchPhotos.storyboard */,
 			);
 			path = PhotosSearch;
+			sourceTree = "<group>";
+		};
+		7F670C2521402A0700F4FE18 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				7F670C2621402A1500F4FE18 /* PhotoSearch */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		7F670C2621402A1500F4FE18 /* PhotoSearch */ = {
+			isa = PBXGroup;
+			children = (
+				7F670C2721402A3500F4FE18 /* PhotoSearchViewModelTests.swift */,
+			);
+			path = PhotoSearch;
+			sourceTree = "<group>";
+		};
+		7F670C2921402B2B00F4FE18 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				7F670C2A21402B3C00F4FE18 /* PhotosServiceMock.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		841EF4DD17145BA9816CC3D7 /* Frameworks */ = {
@@ -416,7 +443,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F0CFFA2213FED0000CA5572 /* FlickerSearchTests.swift in Sources */,
+				7F670C2B21402B3C00F4FE18 /* PhotosServiceMock.swift in Sources */,
+				7F670C2821402A3500F4FE18 /* PhotoSearchViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
